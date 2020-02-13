@@ -1,0 +1,40 @@
+.index{
+    width: 100%;
+    color: #fff;
+    .header{
+        
+        font-size: 36px;
+        text-align: center;
+        margin: 10px;
+    }
+    .title{
+        font-size: 26px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .content{
+        
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        .box{
+            margin: 10px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #666;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            
+        }
+        .Mask{
+            background: salmon;;
+        }
+    }
+}
